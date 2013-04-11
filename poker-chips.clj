@@ -1,8 +1,8 @@
 (use '[clojure.string :only (join)])
 
 (defn create-initial-stacks
-    [n]
-    (list (repeat n 0) (repeat n 1)))
+  [n]
+  (list (repeat n 0) (repeat n 1)))
 
 (defn done?
   [lists]
