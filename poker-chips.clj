@@ -4,6 +4,10 @@
     [n]
     (list (repeat n 0) (repeat n 1)))
 
+(defn done?
+  [lists]
+  (= 1 (count (distinct (nth lists 0)))))
+
 (defn mix-and-divide
   [lists c]
     (let [l1 (nth lists 0)
@@ -12,10 +16,6 @@
     (if (not (done? divided))
           (mix-and-divide divided (inc c))
           c)))
-            
-(defn done?
-  [lists]
-  (= 1 (count (distinct (nth lists 0)))))
 
 (defn calc-steps
   [stack-size]
