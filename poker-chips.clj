@@ -14,7 +14,7 @@
           l2 (nth lists 1)
           divided (partition (count l1) (interleave l1 l2))]
     (if (not (done? divided))
-          (mix-and-divide divided (inc c))
+          (recur divided (inc c))
           c)))
 
 (defn calc-steps
