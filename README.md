@@ -1,1 +1,1 @@
-A small Clojure script we did for a hackathon at [inovex](http://www.inovex.de) recently. Simulates [poker chip stacking](http://www.youtube.com/watch?v=oSU1OqqqUyM) and outputs the number of steps required to get two isochromatic stacks again.
+A small Clojure script we did for a hackathon at [inovex](http://www.inovex.de) recently. Simulates [poker chip stacking](https://www.youtube.com/watch?v=aWwfazIG86k) and outputs the number of steps required to get two isochromatic stacks again.
